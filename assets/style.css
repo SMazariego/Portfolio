@@ -11,17 +11,12 @@
     background-color: #cfc4c40a;
    
   }
-
-
-.banner {
-  width: 100%;
-  height: 100%;
-}
-
+/* Begin Header*/
 header {
   background-color: grey;
   border: 4px solid #050505;
-
+  width: 100%;
+  height: 100%;
 }
 
  .basic { 
@@ -54,8 +49,9 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 1.3vw;
 }
+/* END Header*/
 
-
+/* Begin Picture*/
 .image {
   margin: 50px auto;
   padding-bottom: 50px;
@@ -66,7 +62,40 @@ header nav ul li a {
   align-items: center;
   justify-content: center;
 }
+/* End Picture*/
 
+/* Begin About Me*/
+
+.amtext {
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+  margin: 20px;
+  flex: 1 30%;
+  background-image: url("./images/30-309228_beautiful-wooden-texture-wood-tiles-texture-wooden-light.jpeg");
+}
+
+.amtext h2 {
+  height: 100px;
+  line-height: 100px;
+  text-align: 50%;
+  font-weight: bold;
+  font-size: 60px;
+  color: #050505;
+  padding-right: 8px;
+  border-right: 6px solid black;
+  margin-right: 75%;
+}
+
+
+.amtext p {
+  padding-left: 30%;
+  text-align: right;
+  font-size: 18px;
+  color: #050505;
+  justify-content: space-evenly;
+}
+/* End About Me */
 
 .text {
   justify-content: space-evenly;
@@ -118,6 +147,8 @@ header nav ul li a {
  border: 8px solid #050505;
  display: inline-block;
 }
+
+/* End Body*/
 
 .footer {
     background-color: grey;
