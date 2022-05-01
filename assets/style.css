@@ -98,8 +98,8 @@ header nav ul li a {
 /* End About Me */
 
 .text {
-  justify-content: space-evenly;
-  text-align: center;
+  text-align: right;
+  color: #050505;
   font-size: 20px;
   border: 4px;
   height: 100%;
@@ -121,21 +121,20 @@ header nav ul li a {
 }
 
 
-.text h3 {
-  padding-left: 30%;
-  text-align: right;
-  font-size: 18px;
-  color: #050505;
-  justify-content: space-evenly;
-}
-
 .text p {
   margin: 10px;
   font-size: 18px;
   color: #050505;
 }
 
+.contact {
+  text-align: center;
+  color: #050505;
+
+}
+
 .first {
+  justify-content: right;
   font-size: 3vw;
   border: 8px solid #050505;
   display: inline-block;
